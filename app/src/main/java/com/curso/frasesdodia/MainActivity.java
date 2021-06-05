@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
        public void geraTexto(View v){
            String[] frases = new String[]{"Você é viado?","Você dá o cu?","Vai beber PORRA","Vai comer alguém!!!","Você é torcedor do Vitória?"};
-           TextView texto = findViewById(R.id.texto_Frase);
+
             int i = new Random().nextInt(5);
+           TextView texto = findViewById(R.id.texto_Frase);
             texto.setText(frases[i]);
 
 
